@@ -3,27 +3,48 @@
 <head>
   <title>WEB1 - CSS</title>
   <meta charset="utf-8">
+  <style>
+    a {
+      color: black;
+      text-decoration: none;
+    }
+    .saw {
+      color: green;
+    }
+    #active {
+      color: red;
+    }
+    h1 {
+      font-size: 40px;
+      text-align: center;
+    }
+  </style>
 </head>
 
 <body>
   <h1><a href="index.html">WEB</a></H1>
-  <ol>
-    <li><a href="1.html">HTML</a></li>
-    <li><a href="2.html">CSS</a></li>
-    <li><a href="3.html">JavaScript</a></li>
+  <or>
+    <li><a href="1.html" class="saw">HTML</a></li>
+    <li><a href="2.html" class="saw" id="active">CSS</a></li>
+    <li><a href="3.html" class="saw">JavaScript</a></li>
   </or>
 
-  <h1>CSS</h1>
-    <img src="img03.gif" width="30%">
-  <h3>C1</h3>
+  <h2>CSS</h2>
+    <img src="img03.gif" width="40%">
+  <h3>Definition</h3>
   <p> Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language. Although most often used to set the visual style of web pages and user interfaces written in HTML and XHTML, the language can be applied to any XML document, including plain XML, SVG and XUL, and is applicable to rendering in speech, or on other media. Along with HTML and JavaScript, CSS is a cornerstone technology used by most websites to create visually engaging webpages, user interfaces for web applications, and user interfaces for many mobile applications.
 
 
 </p>
 
-<p style="margin-top:45px; margin- bottom:50px;"">
- <h3>C2</h3>
-CSS is a cornerstone technology used by most websites to create visually engaging webpages, user interfaces for web applications, and user interfaces for many mobile applications.. </p>
+<p style="margin-top:45px;">
+ <h3>CSS Syntax</h3>
+ The selector points to the HTML element you want to style.<br>
+ The declaration block contains one or more declarations separated by semicolons.<br>
+ Each declaration includes a CSS property name and a value, separated by a colon.<br>
+ A CSS declaration always ends with a semicolon, and declaration blocks are surrounded by curly braces.
+
+ In the following example all <p> elements will be center-aligned, with a red text color:
 
  </body>
  </html>
